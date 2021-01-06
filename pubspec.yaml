@@ -1,0 +1,85 @@
+name: patient_assistant_app
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.7+3
+  path_provider: ^1.6.11
+  flutter_svg: ^0.18.1
+  animations: ^1.1.2
+  firebase_core: ^0.5.0
+  firebase_auth: ^0.18.0+1
+  cloud_firestore: ^0.14.0+2
+  firebase_storage: ^4.0.0
+  font_awesome_flutter: ^8.8.1
+  dropdown_search: ^0.4.4
+  sqflite: ^1.3.1
+  data_connection_checker: ^0.3.4
+  http: ^0.12.2
+  image_picker: ^0.6.7+6
+  image_cropper: ^1.3.0
+  flutter_image_compress: ^0.7.0
+  android_intent: ^0.3.7+3
+  transparent_image: ^1.0.0
+  flutter_time_picker_spinner: ^1.0.6+1
+  shimmer: ^1.1.1
+  google_maps_flutter: ^1.0.3
+  geolocator: ^6.1.1
+  geocoding: ^1.0.5
+  flutter_polyline_points: ^0.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Comfortaa
+      fonts:
+      - asset: assets/fonts/Comfortaa-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Comfortaa-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Comfortaa-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Comfortaa-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Comfortaa-Bold.ttf
+        weight: 700
+
+    - family: Poppins
+      fonts:
+      - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Spartan
+      fonts:
+      - asset: assets/fonts/Spartan-VariableFont_wght.ttf
+    - family: Didact
+      fonts:
+      - asset: assets/fonts/DidactGothic-Regular.ttf
+
+    - family: Montserrat
+      fonts:
+      - asset: assets/fonts/Montserrat-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Montserrat-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Montserrat-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Montserrat-SemiBold.ttf
+        weight: 600

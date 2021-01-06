@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "105947333932",
+    "firebase_url": "https://patient-assistant-app.firebaseio.com",
+    "project_id": "patient-assistant-app",
+    "storage_bucket": "patient-assistant-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105947333932:android:e693e1bae793d6900f9889",
+        "android_client_info": {
+          "package_name": "com.example.patient_assistant_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105947333932-aa3sre4d7rdjrsure4fiq9d1v0p5pj4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8aShRLexKO5w9vjIugQH0enqmgGKAt2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105947333932-aa3sre4d7rdjrsure4fiq9d1v0p5pj4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
